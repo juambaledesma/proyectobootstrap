@@ -1,3 +1,9 @@
+/* seccion igual todas las paginas*/
+.animate {
+    font-family: 'Hurricane', cursive;
+    
+}
+/* fin seccion igual todas las paginas*/
 
 /* index.html */
 .body-index {
@@ -5,18 +11,46 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.w-45 {
+
+.loreminicio {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 50px;
+}
+/*
+.w-50 {
     width: 45%;
     margin: 2rem;
 }
-
+*/
 /* fin index.html */
 
-/* contacto.html */
+/* quienesomos.html */
+.imagequienessomos {
+    padding: 50px;
+}
+.loremquienesomos {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    padding: 50px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+/* fin quienesomos.html */
 
-
-
-/* fin contacto.html */
+/* blog.html */
+.loremblog {
+    color: rgb(140, 0, 255);
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 50px 50px 50px;
+}
+/* fin blog.html */
 
 /* footer igual todas las secciones */
 .instagram {
@@ -32,16 +66,3 @@
     right: 5%;
     width: 3.5%;
 }
-
-/* quienesomos.html */
-.loremquienesomos {
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
-}
-.video {
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-}
-/* fin quienesomos.html */
