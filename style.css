@@ -32,3 +32,16 @@
     right: 5%;
     width: 3.5%;
 }
+
+/* quienesomos.html */
+.loremquienesomos {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+/* fin quienesomos.html */
