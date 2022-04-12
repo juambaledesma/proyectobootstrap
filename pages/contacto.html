@@ -48,7 +48,7 @@
     <section>
         <h2 class="container d-flex justify-content-center bd-highlight mb-5 text-danger animate">Animate a tu propia voz</h2>
     </section>
-
+<!--
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
@@ -60,7 +60,34 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
     </div>
+-->
 
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../main.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <form class="form">
+                <div class="pageTitle title">Datos</div>
+                <div class="secondaryTitle title">Por favor complete para consultas</div>
+                <input type="text" class="name formEntry" placeholder="Nombre" />
+                <input type="text" class="email formEntry" placeholder="Email" />
+                <textarea class="message formEntry" placeholder="Consulta"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: grey" for="terms"> Acepto <span style="color: #0e3721">Terminos</span> & <span style="color: #0e3721">Privacidad</span>.</label><br>
+                <button class="submit formEntry" onclick="thanks()">Enviar</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>
 <!-- footer -->
 <footer>
     <section>
