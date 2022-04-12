@@ -1,3 +1,11 @@
+/* header igual todas las paginas */
+.titulo {
+  font-family: 'Indie Flower', cursive;
+  padding: 0 0 0 10px;
+}
+.subtitulo {
+  font-family: 'Grape Nuts', cursive;
+}
 /* seccion igual todas las paginas*/
 .animate {
     font-family: 'Hurricane', cursive;
@@ -7,7 +15,7 @@
 
 /* index.html */
 .body-index {
-    background-image: url(images/fotoprincipal2.jpg);
+    background-image: url(images/fotos-index/fotoprincipal2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,6 +35,9 @@
 /* fin index.html */
 
 /* quienesomos.html */
+.body-qiuenesomos {
+  background-color: #0e375041;
+}
 .imagequienessomos {
     padding: 50px;
 }
@@ -44,6 +55,9 @@
 /* fin quienesomos.html */
 
 /* blog.html */
+.body-blog {
+  background-color: beige;
+}
 .loremblog {
     color: rgb(140, 0, 255);
     display: flex;
@@ -51,7 +65,17 @@
     padding: 50px 50px 50px 50px;
 }
 /* fin blog.html */
+/* escriben.html */
+.body-escriben {
+  background-color: azure;
+}
+/* fin escriben.html */
 
+/* talleres.html */
+.body-talleres {
+  background-color: antiquewhite;
+}
+/* fin talleres.html */
 /* contacto.html */
 .body-contacto {
     background-color: #d1f3e7;
