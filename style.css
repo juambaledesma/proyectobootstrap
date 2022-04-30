@@ -10,8 +10,10 @@
 /* seccion igual todas las paginas*/
 .animate {
     font-family: 'Hurricane', cursive;
-    
-    
+}
+
+.nav-link {
+  font-family: 'Indie Flower', cursive;
 }
 /* fin seccion igual todas las paginas*/
 
@@ -65,10 +67,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
-.imagequienessomos {
+/*.imagequienessomos {
     padding: 50px;
     
-}
+}*/
 .loremquienesomos {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -203,15 +205,46 @@ background-size: cover;
 
 /* footer igual todas las secciones */
 .instagram {
+  background-color: #d81757e0;
     position: fixed;
     bottom: 0%;
     right: 0%;
     width: 4%;
 }
+.instagram {
+  pointer-events: all;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.instagram {
+  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
 
 .whatsapp {
-    position: fixed;
-    bottom: 0%;
-    right: 5%;
-    width: 3.5%;
+  background-color: #25d366;
+  position: fixed;
+  bottom: 0%;
+  right: 5%;
+  width: 3.5%;
+}
+
+.whatsapp {
+  pointer-events: all;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.whatsapp {
+  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
