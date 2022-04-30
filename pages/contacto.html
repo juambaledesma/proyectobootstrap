@@ -62,46 +62,39 @@
     <section>
         <h1 class="container d-flex justify-content-center bd-highlight mb-5 text-danger animate">Anímate a tu propia voz</h1>
     </section>
-<!--
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+
+<!-- inicion form -->
+<form action="form.php" method="post" class="speaker-form">
+    <div class="form-row">
+        <label for="full-name">Nombre</label>
+        <input type="text" id="full-name" placeholder="Ej: Juan castro" name="nombre" required>
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Consulta por favor aqui</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <div class="col-auto d-flex justify-content-center bd-highlight mb-2 text-danger">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+
+    <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ej: juancastro@gmail.com" name="email" required>
     </div>
--->
 
-<html lang="en">
+    <div class="form-row">
+        <label for="abstract">Area de consulta</label>
+        <textarea name="textarea" id="abstract" cols="30" rows="10"></textarea>
+        <p class="instrucciones">Consultas por favor escribir aquí</p>
+    </div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../main.css">
-    </head>
+    <div class="form-row">
+        <button type="submit">Enviar</button>
+    </div>
+</form>
 
-    <body>
-        <div class="wrapper">
-            <form class="form">
-                <div class="pageTitle title">Datos</div>
-                <div class="secondaryTitle title">Por favor complete para consultas</div>
-                <input type="text" class="name formEntry" placeholder="Nombre" />
-                <input type="text" class="email formEntry" placeholder="Email" />
-                <textarea class="message formEntry" placeholder="Consulta"></textarea>
-                <input type="checkbox" class="termsConditions" value="Term">
-                <label style="color: grey" for="terms"> Acepto <span style="color: #0e3721">Terminos</span> & <span style="color: #0e3721">Privacidad</span>.</label><br>
-                <button class="submit formEntry" onclick="thanks()">Enviar</button>
-            </form>
-        </div>
-        <script src="app.js"></script>
-    </body>
+<!-- fin form -->
 
-</html>
+<section>
+    <nav>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0354268515644!2d-58.39233318519517!3d-34.60326566498025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac1154ddd07%3A0x401adecb4c01d435!2sLavalle%201670%2C%20C1048AAN%20CABA!5e0!3m2!1ses!2sar!4v1647228090015!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+    </nav>
+</section>
+
+
 <!-- footer -->
 <footer>
     <section>
