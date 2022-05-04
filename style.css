@@ -18,46 +18,25 @@
 /* fin seccion igual todas las paginas*/
 
 /* index.html */
-@media screen and (min-width: 1304px) and (min-height: 217px) {
-  .body-index {
+
+.body-index {
     background-image: url(images/fotos-index/playa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-  .loreminicio {
+.loreminicio {
     color: black;
     font-family: 'Poppins', sans-serif;
     display: flex;
     padding: 50px;
 }
-}
-@media screen and (max-width: 1303px) and (min-height: 216px) {
-  .body-index {
-    background-image: url(images/fotos-index/fotoprincipal2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .loreminicio {
-    color: #0e3750;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-}
+
 /*
 .w-50 {
     width: 45%;
     margin: 2rem;
 }
 */
-@media screen and (max-width: 501px) and (min-height: 150px) {
-  .body-index {
-    background-color: aqua;
-  }
-  
-  .loreminicio {
-    color: #ffaa00;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-}
 /* fin index.html */
 
 /* quienesomos.html */
